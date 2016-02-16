@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
         String toastMessage = "";
         title = (TextView) findViewById(R.id.title);
 
-        //This is where the magic happens
+        //This is where the magic happens!
         if (guessedNumberInt == randomNumber) {
             guesses++;
             toastMessage = "You're right! I was thinking of " + randomNumber + ". It took you " + guesses + " guesses!";
